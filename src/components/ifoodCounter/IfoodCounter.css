@@ -1,0 +1,46 @@
+
+
+.countex-wrapper{
+  display: flex;
+  flex-direction: row;
+  border: 3px solid rgb(190, 190, 192);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  width: 13%;
+
+}
+
+.counter-button-plus-active{
+  border:none;
+  background-color: transparent;
+  height: 100%;
+  font-size: larger;
+  cursor:pointer;
+  color: red;
+}
+.counter-button-plus-desactive{
+  border:none;
+  background-color: transparent;
+  height: 100%;
+  font-size: larger;
+  cursor:pointer;
+  color: rgb(104, 104, 106);
+}
+.counter-button-minus-active{
+  border:none;
+  background-color: transparent;
+  height: 100%;
+  font-size: larger;
+  cursor:pointer;
+  color: red;
+}
+.counter-button-minus-desactive{
+  border:none;
+  background-color: transparent;
+  height: 100%;
+  font-size: larger;
+  cursor:pointer;
+  color: rgb(104, 104, 106);
+}
